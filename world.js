@@ -1,6 +1,5 @@
 window.onload = function(){
 var button = document.getElementById("lookup");
-var definition = document.getElementById("country");
 button.addEventListener('click',function(){
     var http = new XMLHttpRequest();
        http.onreadystatechange = function() {
